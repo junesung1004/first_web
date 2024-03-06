@@ -27,6 +27,7 @@ nav > ul > li {
   border-radius: 24px;
   transition: all 0.3s;
   color: var(--main-color);
+  cursor: pointer;
 }
 nav > ul > li:hover {
   background-color: var(--neutral-dark);
