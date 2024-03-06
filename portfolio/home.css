@@ -1,0 +1,14 @@
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 200px;
+  width: 100vw;
+}
+.home {
+  width: 100vw;
+  height: 700px;
+  background-image: url("../images/main.jpg");
+  background-size: cover;
+  background-position: center;
+  filter: brightness(120%);
+}

@@ -1,0 +1,42 @@
+header {
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 100px;
+  font-family: "Pretendard";
+}
+
+header > .logo {
+  display: flex;
+  gap: 10px;
+  font-size: var(--large-font-size);
+  font-weight: var(--thin-font-weight);
+  color: var(--main-color);
+}
+
+nav > ul {
+  display: flex;
+  gap: 30px;
+  font-size: var(--medium-font-size);
+  font-weight: var(--thin-font-weight);
+}
+
+nav > ul > li {
+  padding: 10px 14px;
+  border-radius: 24px;
+  transition: all 0.3s;
+  color: var(--main-color);
+}
+nav > ul > li:hover {
+  background-color: var(--neutral-dark);
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    justify-content: center;
+  }
+  nav {
+    display: none;
+  }
+}
